@@ -1,0 +1,3176 @@
+fileFormatVersion: 2
+guid: 03f127696abcc5547bfc4e073559f3bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5253742706686952369
+    second: SuperM-sprites_0
+  - first:
+      213: 164372850180356867
+    second: SuperM-sprites_1
+  - first:
+      213: -2008090621339923135
+    second: SuperM-sprites_2
+  - first:
+      213: 2185400420669001694
+    second: SuperM-sprites_3
+  - first:
+      213: 1154169854404765032
+    second: SuperM-sprites_4
+  - first:
+      213: 1172396689164331276
+    second: SuperM-sprites_5
+  - first:
+      213: 1817833648340659136
+    second: SuperM-sprites_6
+  - first:
+      213: -1394326600023811212
+    second: SuperM-sprites_7
+  - first:
+      213: -6464287475033448301
+    second: SuperM-sprites_8
+  - first:
+      213: -6917305573136966060
+    second: SuperM-sprites_9
+  - first:
+      213: 7934280209387761735
+    second: SuperM-sprites_10
+  - first:
+      213: 2579015670962754275
+    second: SuperM-sprites_11
+  - first:
+      213: -7458476607447266734
+    second: SuperM-sprites_12
+  - first:
+      213: 5336657996665358621
+    second: SuperM-sprites_13
+  - first:
+      213: 3846073334308758164
+    second: SuperM-sprites_14
+  - first:
+      213: -4772631261743946773
+    second: SuperM-sprites_15
+  - first:
+      213: -5152374848040795964
+    second: SuperM-sprites_16
+  - first:
+      213: -8909614102215154497
+    second: SuperM-sprites_17
+  - first:
+      213: -7739116066450891286
+    second: SuperM-sprites_18
+  - first:
+      213: -3293868036459529575
+    second: SuperM-sprites_19
+  - first:
+      213: -2866237689317811637
+    second: SuperM-sprites_20
+  - first:
+      213: 6965403286217354592
+    second: SuperM-sprites_21
+  - first:
+      213: 386100869178361352
+    second: SuperM-sprites_22
+  - first:
+      213: -6474512427627846844
+    second: SuperM-sprites_23
+  - first:
+      213: -2418455322398665781
+    second: SuperM-sprites_24
+  - first:
+      213: 7051277032735501364
+    second: SuperM-sprites_25
+  - first:
+      213: -5606929780082829674
+    second: SuperM-sprites_26
+  - first:
+      213: 2486510624595539068
+    second: SuperM-sprites_27
+  - first:
+      213: -5123253593456431449
+    second: SuperM-sprites_28
+  - first:
+      213: -8447035770761110664
+    second: SuperM-sprites_29
+  - first:
+      213: 2987422665791106616
+    second: SuperM-sprites_30
+  - first:
+      213: -832033641354279595
+    second: SuperM-sprites_31
+  - first:
+      213: -8305828039084511255
+    second: SuperM-sprites_32
+  - first:
+      213: 5972656238447231075
+    second: SuperM-sprites_33
+  - first:
+      213: -8004659709832352367
+    second: SuperM-sprites_34
+  - first:
+      213: -7196287462302211408
+    second: SuperM-sprites_35
+  - first:
+      213: -5190494166133845864
+    second: SuperM-sprites_36
+  - first:
+      213: 6144931536361255068
+    second: SuperM-sprites_37
+  - first:
+      213: -3230757752522079469
+    second: SuperM-sprites_38
+  - first:
+      213: -5163373583285847851
+    second: SuperM-sprites_39
+  - first:
+      213: 2402233724570493306
+    second: SuperM-sprites_40
+  - first:
+      213: 5040779876708195276
+    second: SuperM-sprites_41
+  - first:
+      213: 6286570639438401046
+    second: SuperM-sprites_42
+  - first:
+      213: 1066531489548426473
+    second: SuperM-sprites_43
+  - first:
+      213: -1418984653306665223
+    second: SuperM-sprites_44
+  - first:
+      213: -2639727910432765312
+    second: SuperM-sprites_45
+  - first:
+      213: -4089010184900278061
+    second: SuperM-sprites_46
+  - first:
+      213: -5285153367593744889
+    second: SuperM-sprites_47
+  - first:
+      213: -262552328431854098
+    second: SuperM-sprites_48
+  - first:
+      213: -742128163491481476
+    second: SuperM-sprites_49
+  - first:
+      213: -3975442984836096122
+    second: SuperM-sprites_50
+  - first:
+      213: -5146461377230843795
+    second: SuperM-sprites_51
+  - first:
+      213: 5092033873595505178
+    second: SuperM-sprites_52
+  - first:
+      213: -8482103306658171438
+    second: SuperM-sprites_53
+  - first:
+      213: 2144004573571892637
+    second: SuperM-sprites_54
+  - first:
+      213: 853904135904733555
+    second: SuperM-sprites_55
+  - first:
+      213: -6151529637729401711
+    second: SuperM-sprites_56
+  - first:
+      213: 8020908710564111154
+    second: SuperM-sprites_57
+  - first:
+      213: 2042472866289795147
+    second: SuperM-sprites_58
+  - first:
+      213: 3832328679224041372
+    second: SuperM-sprites_59
+  - first:
+      213: 5355927738883220677
+    second: SuperM-sprites_60
+  - first:
+      213: 1399532263854874380
+    second: SuperM-sprites_61
+  - first:
+      213: 665725058047531523
+    second: SuperM-sprites_62
+  - first:
+      213: -5237593189219439006
+    second: SuperM-sprites_63
+  - first:
+      213: 7743191459668954006
+    second: SuperM-sprites_64
+  - first:
+      213: 1563091570473663737
+    second: SuperM-sprites_65
+  - first:
+      213: 1292919172051144897
+    second: SuperM-sprites_66
+  - first:
+      213: 4642423870363071289
+    second: SuperM-sprites_67
+  - first:
+      213: -7194248287182591520
+    second: SuperM-sprites_68
+  - first:
+      213: 7441423866942781674
+    second: SuperM-sprites_69
+  - first:
+      213: 2802959191278568373
+    second: SuperM-sprites_70
+  - first:
+      213: 5837681207049277733
+    second: SuperM-sprites_71
+  - first:
+      213: -5474364951084497795
+    second: SuperM-sprites_72
+  - first:
+      213: 6123365437094521007
+    second: SuperM-sprites_73
+  - first:
+      213: -4596139823392280721
+    second: SuperM-sprites_74
+  - first:
+      213: 2804047208129744758
+    second: SuperM-sprites_75
+  - first:
+      213: 473860237210733685
+    second: SuperM-sprites_76
+  - first:
+      213: -9047244212158579350
+    second: SuperM-sprites_77
+  - first:
+      213: 2345231215642979939
+    second: SuperM-sprites_78
+  - first:
+      213: 4881211575423217484
+    second: SuperM-sprites_79
+  - first:
+      213: 532716698835684500
+    second: SuperM-sprites_80
+  - first:
+      213: -8004410799659313842
+    second: SuperM-sprites_81
+  - first:
+      213: 1374136800399131044
+    second: SuperM-sprites_82
+  - first:
+      213: -7540059865752434935
+    second: SuperM-sprites_83
+  - first:
+      213: -4479747561904729914
+    second: SuperM-sprites_84
+  - first:
+      213: 1743557630986977540
+    second: SuperM-sprites_85
+  - first:
+      213: -1563759768251719882
+    second: SuperM-sprites_86
+  - first:
+      213: 7784391971295002639
+    second: SuperM-sprites_87
+  - first:
+      213: 4400883247783277978
+    second: SuperM-sprites_88
+  - first:
+      213: -2568372938491991039
+    second: SuperM-sprites_89
+  - first:
+      213: 6698509717953359983
+    second: SuperM-sprites_90
+  - first:
+      213: -703228958087719954
+    second: SuperM-sprites_91
+  - first:
+      213: 8407919898343285784
+    second: SuperM-sprites_92
+  - first:
+      213: 113271995909746894
+    second: SuperM-sprites_93
+  - first:
+      213: 2479213777407751556
+    second: SuperM-sprites_94
+  - first:
+      213: 2722878925247110677
+    second: SuperM-sprites_95
+  - first:
+      213: -94095717883234200
+    second: SuperM-sprites_96
+  - first:
+      213: 8449608482035987604
+    second: SuperM-sprites_97
+  - first:
+      213: -7942391990702271357
+    second: SuperM-sprites_98
+  - first:
+      213: 1755969908945827177
+    second: SuperM-sprites_99
+  - first:
+      213: -5651346110217943791
+    second: SuperM-sprites_100
+  - first:
+      213: 2784978740129186829
+    second: SuperM-sprites_101
+  - first:
+      213: 7666010529052145435
+    second: SuperM-sprites_102
+  - first:
+      213: -4212690441727391267
+    second: SuperM-sprites_103
+  - first:
+      213: 1403109246857894936
+    second: SuperM-sprites_104
+  - first:
+      213: -261597458419664818
+    second: SuperM-sprites_105
+  - first:
+      213: -7742407551752808394
+    second: SuperM-sprites_106
+  - first:
+      213: 7035856981458345940
+    second: SuperM-sprites_107
+  - first:
+      213: 401503516309830846
+    second: SuperM-sprites_108
+  - first:
+      213: 8230090053877296319
+    second: SuperM-sprites_109
+  - first:
+      213: 757501921706028187
+    second: SuperM-sprites_110
+  - first:
+      213: -6497672505169652448
+    second: SuperM-sprites_111
+  - first:
+      213: 1771985903522164766
+    second: SuperM-sprites_112
+  - first:
+      213: -6398927250847769657
+    second: SuperM-sprites_113
+  - first:
+      213: -6811754832289526786
+    second: SuperM-sprites_114
+  - first:
+      213: -2687071739526076332
+    second: SuperM-sprites_115
+  - first:
+      213: -1185369449926489755
+    second: SuperM-sprites_116
+  - first:
+      213: 244391666001704768
+    second: SuperM-sprites_117
+  - first:
+      213: -8251613036382698774
+    second: SuperM-sprites_118
+  - first:
+      213: 9018247493200013063
+    second: SuperM-sprites_119
+  - first:
+      213: -5760741239965786537
+    second: SuperM-sprites_120
+  - first:
+      213: 4854654332212281015
+    second: SuperM-sprites_121
+  - first:
+      213: 2060564491213440168
+    second: SuperM-sprites_122
+  - first:
+      213: -6828677125908420449
+    second: SuperM-sprites_123
+  - first:
+      213: 4244202592577511240
+    second: SuperM-sprites_124
+  - first:
+      213: 3955171310572743553
+    second: SuperM-sprites_125
+  - first:
+      213: -8228571476303713607
+    second: SuperM-sprites_126
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperM-sprites_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3006df72b09e840800000000000000
+      internalID: 5253742706686952369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 617
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bf7b18c38f74200800000000000000
+      internalID: 164372850180356867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 617
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d8d3e1834d124e0800000000000000
+      internalID: -2008090621339923135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf07f59a1a145e10800000000000000
+      internalID: 2185400420669001694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 608
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a2461e5f640010800000000000000
+      internalID: 1154169854404765032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 608
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09eb71c390354010800000000000000
+      internalID: 1172396689164331276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbe816621e3a3910800000000000000
+      internalID: 1817833648340659136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 600
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bd3b0485b56ace0800000000000000
+      internalID: -1394326600023811212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 593
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ef9c6acc3a46a0800000000000000
+      internalID: -6464287475033448301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e575e0b3bc000a0800000000000000
+      internalID: -6917305573136966060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_10
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 593
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74038f410d93c1e60800000000000000
+      internalID: 7934280209387761735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 593
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e296e9a6118ac320800000000000000
+      internalID: 2579015670962754275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8b8fca0b2e7890800000000000000
+      internalID: -7458476607447266734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_13
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 608
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d198cf25c2e9f0a40800000000000000
+      internalID: 5336657996665358621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 543
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926397f15fff5530800000000000000
+      internalID: 3846073334308758164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 528
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3e3d7672534cdb0800000000000000
+      internalID: -4772631261743946773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 528
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c00fd8cf561f78b0800000000000000
+      internalID: -5152374848040795964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a7afdd21ba5480800000000000000
+      internalID: -8909614102215154497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_18
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 543
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed1dafe0f2299490800000000000000
+      internalID: -7739116066450891286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_19
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 537
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99af0d5f874d942d0800000000000000
+      internalID: -3293868036459529575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 543
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a106ee1041938d0800000000000000
+      internalID: -2866237689317811637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 531
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06de25072651aa060800000000000000
+      internalID: 6965403286217354592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 531
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80688d2e1b4bb5500800000000000000
+      internalID: 386100869178361352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_23
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 528
+        width: 97
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e3612049e526a0800000000000000
+      internalID: -6474512427627846844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 528
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35643a2bbef6ed0800000000000000
+      internalID: -2418455322398665781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 528
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ce11d1a1b2bd160800000000000000
+      internalID: 7051277032735501364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_26
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 528
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6969a91621f2032b0800000000000000
+      internalID: -5606929780082829674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74704d2d3cd18220800000000000000
+      internalID: 2486510624595539068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae29cb300c86e8b0800000000000000
+      internalID: -5123253593456431449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b14c688b916ca80800000000000000
+      internalID: -8447035770761110664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eed642615757920800000000000000
+      internalID: 2987422665791106616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55547edbfc50474f0800000000000000
+      internalID: -832033641354279595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_32
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef63e49765cbbc80800000000000000
+      internalID: -8305828039084511255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_33
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3600b22543323e250800000000000000
+      internalID: 5972656238447231075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_34
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19daf87876cb9e090800000000000000
+      internalID: -8004659709832352367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b221eb3ea6a12c90800000000000000
+      internalID: -7196287462302211408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890dada6e09a7f7b0800000000000000
+      internalID: -5190494166133845864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_37
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9078e1dcae274550800000000000000
+      internalID: 6144931536361255068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_38
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313059df0fa0a23d0800000000000000
+      internalID: -3230757752522079469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_39
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d87c9d25130858b0800000000000000
+      internalID: -5163373583285847851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_40
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 463
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71ec7c48d2765120800000000000000
+      internalID: 2402233724570493306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb1126379274f540800000000000000
+      internalID: 5040779876708195276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e402b50b26e3750800000000000000
+      internalID: 6286570639438401046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_43
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec5d403db41dce00800000000000000
+      internalID: 1066531489548426473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_44
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ece5d9f0ce4ce0800000000000000
+      internalID: -1418984653306665223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_45
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a88fa837dcd5bd0800000000000000
+      internalID: -2639727910432765312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_46
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8801eb6eae047c0800000000000000
+      internalID: -4089010184900278061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_47
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7068d1d930d57a6b0800000000000000
+      internalID: -5285153367593744889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_48
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed1ed06c0a3b5cf0800000000000000
+      internalID: -262552328431854098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_49
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78f6450e5e63b5f0800000000000000
+      internalID: -742128163491481476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_50
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f96080ba364d8c0800000000000000
+      internalID: -3975442984836096122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_51
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 398
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6053eff4a81498b0800000000000000
+      internalID: -5146461377230843795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_52
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a9aeb44d98aa640800000000000000
+      internalID: 5092033873595505178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_53
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d539729bf3894a80800000000000000
+      internalID: -8482103306658171438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_54
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 398
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c09cdcc801cd10800000000000000
+      internalID: 2144004573571892637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_55
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 333
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379a6d4994da9db00800000000000000
+      internalID: 853904135904733555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 333
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940addf26061aaa0800000000000000
+      internalID: -6151529637729401711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_57
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 342
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233a205c9fdff4f60800000000000000
+      internalID: 8020908710564111154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_58
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 333
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c39a1042585c10800000000000000
+      internalID: 2042472866289795147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_59
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fd0b311aa2f2530800000000000000
+      internalID: 3832328679224041372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_60
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4abcec6e3145a40800000000000000
+      internalID: 5355927738883220677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_61
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f94cecd232c6310800000000000000
+      internalID: 1399532263854874380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_62
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30adff2c9612d3900800000000000000
+      internalID: 665725058047531523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_63
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 333
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee19e8eb45057b0800000000000000
+      internalID: -5237593189219439006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 333
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b086d7b97557b60800000000000000
+      internalID: 7743191459668954006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_65
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc7d71708731b510800000000000000
+      internalID: 1563091570473663737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_66
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 333
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09665032f51f110800000000000000
+      internalID: 1292919172051144897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_67
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 353
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f8c9d9e33d6040800000000000000
+      internalID: 4642423870363071289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_68
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 348
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e480bc45e82c90800000000000000
+      internalID: -7194248287182591520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 283
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fc34a49f354760800000000000000
+      internalID: 7441423866942781674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_70
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 279
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b34314a88c16e620800000000000000
+      internalID: 2802959191278568373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_71
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 268
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5215522e02c930150800000000000000
+      internalID: 5837681207049277733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_72
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 236
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7482c7d4162704b0800000000000000
+      internalID: -5474364951084497795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_73
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 268
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa86ceb0c609af450800000000000000
+      internalID: 6123365437094521007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_74
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 268
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f2da89e2b3730c0800000000000000
+      internalID: -4596139823392280721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_75
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 268
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fcffd441af9e620800000000000000
+      internalID: 2804047208129744758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_76
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 269
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc028006d739600800000000000000
+      internalID: 473860237210733685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_77
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 323
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d341ac25bb17280800000000000000
+      internalID: -9047244212158579350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_78
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 283
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eae847d5feb8020800000000000000
+      internalID: 2345231215642979939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_79
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 283
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f20aae01c8db340800000000000000
+      internalID: 4881211575423217484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_80
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 283
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0500e307946700800000000000000
+      internalID: 532716698835684500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_81
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 307
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45910279ce9ae090800000000000000
+      internalID: -8004410799659313842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_82
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 307
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10594b32ae11310800000000000000
+      internalID: 1374136800399131044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_83
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 297
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90785a440835c5790800000000000000
+      internalID: -7540059865752434935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 297
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01f31c35db4d1c0800000000000000
+      internalID: -4479747561904729914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_85
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 268
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40186687d6c523810800000000000000
+      internalID: 1743557630986977540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_86
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 200
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f1f43a6c86c4ae0800000000000000
+      internalID: -1563759768251719882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_87
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0001712147b70c60800000000000000
+      internalID: 7784391971295002639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_88
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 171
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95f61a3ff3131d30800000000000000
+      internalID: 4400883247783277978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_89
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 185
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c65769b6e4b5cd0800000000000000
+      internalID: -2568372938491991039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_90
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 189
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60bc172913e5fc50800000000000000
+      internalID: 6698509717953359983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_91
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 171
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d96d0df0ad36f0800000000000000
+      internalID: -703228958087719954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_92
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 171
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814a0b8b99eeea470800000000000000
+      internalID: 8407919898343285784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_93
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec03337b74c629100800000000000000
+      internalID: 113271995909746894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_94
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b4ac8bcfe76220800000000000000
+      internalID: 2479213777407751556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_95
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e50c1c4fb99c520800000000000000
+      internalID: 2722878925247110677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_96
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 171
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8683fa07174b1bef0800000000000000
+      internalID: -94095717883234200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_97
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 174
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494f1ee752a034570800000000000000
+      internalID: 8449608482035987604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_98
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3849847a094f6c190800000000000000
+      internalID: -7942391990702271357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_99
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965bdf224557e5810800000000000000
+      internalID: 1755969908945827177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_100
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1158ca5a7a26291b0800000000000000
+      internalID: -5651346110217943791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_101
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d044a60a86b36a620800000000000000
+      internalID: 2784978740129186829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_102
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 121
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17be8cb5f3236a60800000000000000
+      internalID: 7666010529052145435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_103
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 122
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9c720fc548985c0800000000000000
+      internalID: -4212690441727391267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_104
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cd7001d68d87310800000000000000
+      internalID: 1403109246857894936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_105
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 106
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4830c06f7e9e5cf0800000000000000
+      internalID: -261597458419664818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_106
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 141
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638d87b4a517d8490800000000000000
+      internalID: -7742407551752808394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_107
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 106
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfd646a5a264a160800000000000000
+      internalID: 7035856981458345940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_108
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 106
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcb7b1225d629500800000000000000
+      internalID: 401503516309830846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_109
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbce4d29c47273270800000000000000
+      internalID: 8230090053877296319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_110
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 121
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ca6fffbff238a00800000000000000
+      internalID: 757501921706028187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_111
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0255a8e5841a3d5a0800000000000000
+      internalID: -6497672505169652448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_112
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 119
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1030767acb579810800000000000000
+      internalID: 1771985903522164766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_113
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbd6ad71917237a0800000000000000
+      internalID: -6398927250847769657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_114
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 121
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb055cf119c771a0800000000000000
+      internalID: -6811754832289526786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_115
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 59
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458ae875d7a95bad0800000000000000
+      internalID: -2687071739526076332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 59
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569088104c8bc8fe0800000000000000
+      internalID: -1185369449926489755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_117
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 56
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047f816ece0446300800000000000000
+      internalID: 244391666001704768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_118
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 58
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae24d6e89a16c7d80800000000000000
+      internalID: -8251613036382698774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 41
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7076eb87050472d70800000000000000
+      internalID: 9018247493200013063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_120
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 41
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e55ec2d5cbd00b0800000000000000
+      internalID: -5760741239965786537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_121
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 60
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bef2d2e4623f5340800000000000000
+      internalID: 4854654332212281015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_122
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 56
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a48f87cc78989c10800000000000000
+      internalID: 2060564491213440168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_123
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 56
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98a468755aab31a0800000000000000
+      internalID: -6828677125908420449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_124
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 56
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fdf5d65cf66ea30800000000000000
+      internalID: 4244202592577511240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_125
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 66
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b21800a5793e630800000000000000
+      internalID: 3955171310572743553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperM-sprites_126
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 66
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba6102d6dd3ecd80800000000000000
+      internalID: -8228571476303713607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
