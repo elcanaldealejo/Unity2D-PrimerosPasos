@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Jugador
+  - Enemigo
+  - Coleccionable
+  - Poder
+  - Arma
   layers:
   - Default
   - TransparentFX
@@ -13,16 +18,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Superficies
+  - Peligros
+  - Personaje
+  - Muerte
+  - Perder_Poder
+  - Restablecer_Vida
+  - Coins
+  - SuperficiesDificiles
+  - CheckPoint
+  - Enemy_Basic
   - 
   - 
   - 
@@ -40,4 +45,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fondo_Escena
+    uniqueID: 3732172529
+    locked: 0
+  - name: Decoracion_Fondo
+    uniqueID: 4027527751
+    locked: 0
+  - name: Flora_Fondo
+    uniqueID: 1800467399
+    locked: 0
+  - name: Terrenos
+    uniqueID: 3828801063
+    locked: 0
+  - name: Personaje
+    uniqueID: 3063361995
+    locked: 0
+  - name: Decoracion_Frontal
+    uniqueID: 3018105663
+    locked: 0
+  - name: Flora_Frontal
+    uniqueID: 3786648861
     locked: 0
