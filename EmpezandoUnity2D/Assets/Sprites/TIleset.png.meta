@@ -661,7 +661,7 @@ TextureImporter:
         y: 278
         width: 48
         height: 48
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -1037,8 +1037,8 @@ TextureImporter:
         serializedVersion: 2
         x: 729
         y: 179
-        width: 45
-        height: 45
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
