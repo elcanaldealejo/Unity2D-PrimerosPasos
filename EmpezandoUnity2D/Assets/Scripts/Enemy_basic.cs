@@ -47,9 +47,10 @@ public class Enemy_basic : MonoBehaviour
             cont-=0.2f;
             gameObject.GetComponent<EdgeCollider2D>().enabled=false;
         }
-        if(!loop)
+        if(!loop){
+            Admin_Level.instance.controlEnemigos(this.gameObject);
             gameObject.SetActive(false);
-           
+           }
     }
     public void reducirSalud(float value){
         salud = salud-value<0 ? 0 : salud - value;        

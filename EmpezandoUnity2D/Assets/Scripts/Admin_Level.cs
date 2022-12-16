@@ -21,9 +21,13 @@ public class Admin_Level : MonoBehaviour
     private int monedasCapturadas;
 
 [Header("Grupos de Enemigos - Coleccionables y más...")]
+    //Monedas
     public GameObject[] monedasObject;
-    private bool[] monedasActivas;
+    public bool[] monedasActivas;
     private int totalMonedas;
+    //Enemigos
+    public GameObject[] enemyObject;
+    public bool[] enemyActivos;
 
 [Header("Prefab Jugador")]
     public GameObject PersonajePref;
@@ -39,18 +43,26 @@ public class Admin_Level : MonoBehaviour
         ObjetoPrefab.transform.position = puntoAparicion.position;
         if(PlayerPrefs.GetString("mundoCoins"+NumLevel,"")=="")//Sí nunca se creo el prefs se inicializa
             crearPrefsCoinsMundo();
+        if(PlayerPrefs.GetString("mundoEnemy"+NumLevel,"")=="")//Sí nunca se creo el prefs se inicializa
+            crearPrefsEnemyMundo();
     }
     void Start()
     {      
         instance = this;
         totalMonedas = PlayerPrefs.GetInt("monedasPrefs",0);
         monedasActivas = new bool[monedasObject.Length];
+        enemyActivos = new bool[enemyObject.Length];
         inicializarMonedas(PlayerPrefs.GetString("mundoCoins"+NumLevel,""));
+        inicializarEnemigos(PlayerPrefs.GetString("mundoEnemy"+NumLevel,""));
         StartCoroutine("abreTelon");
         tiempoActual = tiempoMax;      
         AdminAnimations.instance._animador = ObjetoPrefab.GetComponent<Animator>();
     }    
     public GameObject prefbLevel(){
+        /* 
+        El clon del personaje es privado asi que si queremos compartirlo o realizar cambios a este
+        es necesario siempre pedirlo por este metodo publico.
+        */
         return ObjetoPrefab;
     }
     void Update()
@@ -59,7 +71,8 @@ public class Admin_Level : MonoBehaviour
         monedasPantalla.text = (totalMonedas + monedasCapturadas).ToString("D8");
         if(mundo_passed && !telon.enabled)
             TerminaEscena();
-        if(UI_Vida.instance.sliderVida.value<=0)
+
+        if(UI_Vida.instance.sliderVida.value<=0)//Evaluamos constantemente la vida del personaje
             PierdeEscena();
 
         if(Input.GetKey("r") && (!ObjetoPrefab.activeSelf || UI_Vida.instance.sliderVida.value<=0)){//Si el objetivo esta inactivo y se preciona "r" se llamará reaparición en punto
@@ -67,7 +80,8 @@ public class Admin_Level : MonoBehaviour
                 AdminCamera2D.instance.reIniciaSeguimiento(puntoAparicion);
                 UI_Vida.instance.Revivir();
                 Admin_Movimientos.instance.Iniciar_MOVs();
-                ObjetoPrefab.SetActive(true);//el Objetivo se activa, pero primero se le da la posición de donde debe reaparecer
+                //El Objetivo se activa, pero primero se le da la posición de donde debe reaparecer
+                ObjetoPrefab.SetActive(true);
                 StartCoroutine("abreTelon");
         }
     }
@@ -76,7 +90,10 @@ public class Admin_Level : MonoBehaviour
         AudioManager.instance.StopSounds(0);
         Admin_Movimientos.instance.Detener_MOVs();
         AdminAnimations.instance._animador.enabled = false;
+        // Si alcanzo el fin se vuelve a iniciar los prefs para que aparezcan todos 
+        // los objetos de nuevo en la escena la proxima vez que se inicie el mundo.
         crearPrefsCoinsMundo();
+        crearPrefsEnemyMundo();
         PlayerPrefs.SetInt("monedasPrefs",totalMonedas + monedasCapturadas);  
     }
     private void PierdeEscena(){
@@ -85,12 +102,19 @@ public class Admin_Level : MonoBehaviour
         Admin_Movimientos.instance.Detener_MOVs();
         ObjetoPrefab.GetComponent<Rigidbody2D>().Sleep();
     }
-    public void ActualizarPrefsCoinsMundo(){
+    public void ActualizarPrefsCoinsMundo(){//En cada punto de salvado de escena se actualiza el prefs
         string constructo="";
          for (int i=0;i<monedasObject.Length;i++){            
                 constructo += monedasActivas[i] ? "1-" : "0-";
          }
          PlayerPrefs.SetString("mundoCoins"+NumLevel,constructo);
+    }
+    public void ActualizarPrefsEnemyMundo(){//En cada punto de salvado de escena se actualiza el prefs
+        string constructo="";
+         for (int i=0;i<enemyObject.Length;i++){            
+                constructo += enemyActivos[i] ? "1-" : "0-";
+         }
+         PlayerPrefs.SetString("mundoEnemy"+NumLevel,constructo);
     }
     public void crearPrefsCoinsMundo(){
         string constructo="";
@@ -99,7 +123,22 @@ public class Admin_Level : MonoBehaviour
          }
          PlayerPrefs.SetString("mundoCoins"+NumLevel,constructo);
     }
+    public void crearPrefsEnemyMundo(){
+        string constructo="";
+         for (int i=0;i<enemyObject.Length;i++){            
+                constructo += "0-";
+         }
+         PlayerPrefs.SetString("mundoEnemy"+NumLevel,constructo);
+    }
     private void inicializarMonedas(string mundo_coins){
+        /* 
+        Según lo que traiga el prefs del mundo(Monedas), el controlará el estado de cada GameObject_moneda
+        entrado en el Arreglo. El lo identifica:
+        Ejemplo 1
+        0-0-0-0-0-0-    Aqui inicializa 6 monedas todas activas en la escena 
+        Ejemplo 2
+        1-1-1-0-1-0-    Aqui inicializa 6 monedas pero ya capturadas 4 y aún activas en escena 2
+         */
         int cont=0;
         for (int i=0;i<mundo_coins.Length;i++){
             if(mundo_coins.Substring(i,1)!="-"){
@@ -112,12 +151,33 @@ public class Admin_Level : MonoBehaviour
                     cont++;
                     monedasCapturadas++; 
                 }
-            }
-
-            
+            }           
         }
     }
-    public void controlMonedas(GameObject coin){
+    private void inicializarEnemigos(string mundo_enemy){
+        /* 
+        Según lo que traiga el prefs del mundo(enemigos), el controlará el estado de cada GameObject_enemigo
+        entrado en el Arreglo. El lo identifica:
+        Ejemplo 1
+        0-0-0-0-0-0-    Aqui inicializa 6 enemigos todos activos en la escena 
+        Ejemplo 2
+        1-1-1-0-1-0-    Aqui inicializa 6 enemigos pero ya derrotados 4 y aún activos en escena 2
+         */
+        int cont=0;
+        for (int i=0;i<mundo_enemy.Length;i++){
+            if(mundo_enemy.Substring(i,1)!="-"){
+                if( mundo_enemy.Substring(i,1)=="0"){
+                    enemyActivos[cont]=false; 
+                    cont++;                   
+                }else{
+                    enemyActivos[cont]=true;
+                    enemyObject[cont].SetActive(false);
+                    cont++; 
+                }
+            }            
+        }
+    }
+    public void controlMonedas(GameObject coin){// este metodo se llamará donde se capture la moneda
         monedasCapturadas++;
         AudioManager.instance.PlaySounds(1);
         for(int i=0;i<monedasObject.Length;i++){
@@ -126,8 +186,17 @@ public class Admin_Level : MonoBehaviour
                 monedasActivas[i]=true;
                 return;
             }
-        }        
-        
+        }      
+    }
+    public void controlEnemigos(GameObject enemy){//este metodo se llamará donde se derrote al enemigo
+        //AudioManager.instance.PlaySounds(1);
+        for(int i=0;i<enemyObject.Length;i++){
+            if(enemyObject[i]==enemy){
+                enemyObject[i].SetActive(false);
+                enemyActivos[i]=true;
+                return;
+            }
+        }   
     }
     private void ControlTiempo(){
         if(Time.timeScale>0 && tiempoActual>0){

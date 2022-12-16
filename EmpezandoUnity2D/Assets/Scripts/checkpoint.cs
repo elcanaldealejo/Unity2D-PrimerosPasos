@@ -21,6 +21,7 @@ public class checkpoint : MonoBehaviour
             _animator.enabled = true;
             Admin_Level.instance.check++;
             Admin_Level.instance.ActualizarPrefsCoinsMundo();
+            Admin_Level.instance.ActualizarPrefsEnemyMundo();
             estado=false;
             if(FinEscena)
                 Admin_Level.instance.mundo_passed=true;
