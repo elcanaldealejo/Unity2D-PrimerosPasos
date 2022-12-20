@@ -23,11 +23,11 @@ public class Admin_Level : MonoBehaviour
 [Header("Grupos de Enemigos - Coleccionables y más...")]
     //Monedas
     public GameObject[] monedasObject;
-    public bool[] monedasActivas;
+    private bool[] monedasActivas;
     private int totalMonedas;
     //Enemigos
     public GameObject[] enemyObject;
-    public bool[] enemyActivos;
+    private bool[] enemyActivos;
 
 [Header("Prefab Jugador")]
     public GameObject PersonajePref;
@@ -49,13 +49,16 @@ public class Admin_Level : MonoBehaviour
     void Start()
     {      
         instance = this;
-        totalMonedas = PlayerPrefs.GetInt("monedasPrefs",0);
+        totalMonedas = PlayerPrefs.GetInt("monedasPrefs",0);// Traemos el valor de las monedas totales ya ganadas
+        //Iniciamos los arreglos de las collecciones con el tamaño ofrecido en el insperctor
         monedasActivas = new bool[monedasObject.Length];
         enemyActivos = new bool[enemyObject.Length];
+        //Leemos los prefs con la información de las colleciones (Monedas ya capturados o no? y enemigos ya vencidos o no?)
         inicializarMonedas(PlayerPrefs.GetString("mundoCoins"+NumLevel,""));
         inicializarEnemigos(PlayerPrefs.GetString("mundoEnemy"+NumLevel,""));
         StartCoroutine("abreTelon");
-        tiempoActual = tiempoMax;      
+        tiempoActual = tiempoMax;  // el tiempo total de la escena se transfiere a una variable temporal que va ir disminuyendo  
+        //para que se ejecuten las animaciones del prefab clonado (personaje) le ofrecemos el animator de este al administrador de animaciones  
         AdminAnimations.instance._animador = ObjetoPrefab.GetComponent<Animator>();
     }    
     public GameObject prefbLevel(){
@@ -67,15 +70,16 @@ public class Admin_Level : MonoBehaviour
     }
     void Update()
     {        
-        ControlTiempo();
-        monedasPantalla.text = (totalMonedas + monedasCapturadas).ToString("D8");
-        if(mundo_passed && !telon.enabled)
+        ControlTiempo();//el tiempo de juego se disminuye y se imprime a la vez
+        monedasPantalla.text = (totalMonedas + monedasCapturadas).ToString("D8");//imprimimos monedas en pantalla
+        if(mundo_passed && !telon.enabled)//cuando se alcance el ultimo checkpoint se termina la escena
             TerminaEscena();
 
         if(UI_Vida.instance.sliderVida.value<=0)//Evaluamos constantemente la vida del personaje
             PierdeEscena();
 
-        if(Input.GetKey("r") && (!ObjetoPrefab.activeSelf || UI_Vida.instance.sliderVida.value<=0)){//Si el objetivo esta inactivo y se preciona "r" se llamará reaparición en punto
+        if(Input.GetKey("r") && (!ObjetoPrefab.activeSelf || UI_Vida.instance.sliderVida.value<=0)){
+            //Si el objetivo esta inactivo y se preciona "r" se llamará reaparición en punto
                 
                 AdminCamera2D.instance.reIniciaSeguimiento(puntoAparicion);
                 UI_Vida.instance.Revivir();
@@ -87,7 +91,9 @@ public class Admin_Level : MonoBehaviour
     }
     private void TerminaEscena(){
         StartCoroutine("cerrarTelon");
+        //se terminan e inician nuevos sonidos
         AudioManager.instance.StopSounds(0);
+        //detenemos la interacción usuario personaje e animaciones
         Admin_Movimientos.instance.Detener_MOVs();
         AdminAnimations.instance._animador.enabled = false;
         // Si alcanzo el fin se vuelve a iniciar los prefs para que aparezcan todos 
@@ -98,9 +104,11 @@ public class Admin_Level : MonoBehaviour
     }
     private void PierdeEscena(){
         StartCoroutine("cerrarTelon");
+        //se terminan e inician nuevos sonidos
         AudioManager.instance.StopSounds(0);
+        //detenemos la interacción usuario personaje e animaciones
         Admin_Movimientos.instance.Detener_MOVs();
-        ObjetoPrefab.GetComponent<Rigidbody2D>().Sleep();
+        ObjetoPrefab.GetComponent<Rigidbody2D>().Sleep();//detenemos la fisicas temporalmente
     }
     public void ActualizarPrefsCoinsMundo(){//En cada punto de salvado de escena se actualiza el prefs
         string constructo="";
@@ -116,14 +124,14 @@ public class Admin_Level : MonoBehaviour
          }
          PlayerPrefs.SetString("mundoEnemy"+NumLevel,constructo);
     }
-    public void crearPrefsCoinsMundo(){
+    public void crearPrefsCoinsMundo(){//crear la memoria del coleccionable vacia con todos los objetos disponibles en escena
         string constructo="";
          for (int i=0;i<monedasObject.Length;i++){            
                 constructo += "0-";
          }
          PlayerPrefs.SetString("mundoCoins"+NumLevel,constructo);
     }
-    public void crearPrefsEnemyMundo(){
+    public void crearPrefsEnemyMundo(){//crear la memoria del coleccionable vacia con todos los objetos disponibles en escena
         string constructo="";
          for (int i=0;i<enemyObject.Length;i++){            
                 constructo += "0-";

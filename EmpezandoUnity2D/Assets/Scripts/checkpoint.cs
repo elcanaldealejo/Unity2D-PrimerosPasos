@@ -12,9 +12,7 @@ public class checkpoint : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-    }
-
-    
+    }    
     void Update()
     {
         if(CreateRaycast("Up",sizeRayo,seActivaCon) && estado){

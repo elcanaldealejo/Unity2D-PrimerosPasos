@@ -142,7 +142,6 @@ MonoBehaviour:
   defensa: 0
   invulnerable: 0
   loop: 0
-  Eliminado: 0
   premios: []
   exp: 0
   posPremios: {fileID: 0}
@@ -159,13 +158,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ini_derecha: 0
-  sizeRayo: 0.03
-  iniRay: 0.19
+  sizeRayo: 0.02
+  iniRay: 0.2
   VelMov: 4
   reboteLayers:
     serializedVersion: 2
     m_Bits: 165632
-  sizeRayoMuerte: 0.41
+  sizeRayoMuerte: 0.35
   iniRayMuerte: 0.22
   muerteLayers:
     serializedVersion: 2
