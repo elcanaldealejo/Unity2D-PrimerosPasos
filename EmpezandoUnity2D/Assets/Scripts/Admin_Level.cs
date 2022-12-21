@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Luminosity.IO;
 
 public class Admin_Level : MonoBehaviour
 {
@@ -19,6 +21,9 @@ public class Admin_Level : MonoBehaviour
     public Text tiempoPantalla;
     public Text monedasPantalla;
     private int monedasCapturadas;
+    public GameObject panel_pausa = null;
+    public Text texto_pausa;
+    public Button continuarCheck=null;
 
 [Header("Grupos de Enemigos - Coleccionables y más...")]
     //Monedas
@@ -39,6 +44,7 @@ public class Admin_Level : MonoBehaviour
     public Transform[] CheckPoints;
     
     void Awake(){
+        instance = this;
         ObjetoPrefab = Instantiate(PersonajePref);
         ObjetoPrefab.transform.position = puntoAparicion.position;
         if(PlayerPrefs.GetString("mundoCoins"+NumLevel,"")=="")//Sí nunca se creo el prefs se inicializa
@@ -47,8 +53,7 @@ public class Admin_Level : MonoBehaviour
             crearPrefsEnemyMundo();
     }
     void Start()
-    {      
-        instance = this;
+    {              
         totalMonedas = PlayerPrefs.GetInt("monedasPrefs",0);// Traemos el valor de las monedas totales ya ganadas
         //Iniciamos los arreglos de las collecciones con el tamaño ofrecido en el insperctor
         monedasActivas = new bool[monedasObject.Length];
@@ -75,19 +80,56 @@ public class Admin_Level : MonoBehaviour
         if(mundo_passed && !telon.enabled)//cuando se alcance el ultimo checkpoint se termina la escena
             TerminaEscena();
 
-        if(UI_Vida.instance.sliderVida.value<=0)//Evaluamos constantemente la vida del personaje
+        if(UI_Vida.instance.sliderVida.value<=0 && !panel_pausa.activeSelf)//Evaluamos constantemente la vida del personaje
             PierdeEscena();
 
-        if(Input.GetKey("r") && (!ObjetoPrefab.activeSelf || UI_Vida.instance.sliderVida.value<=0)){
-            //Si el objetivo esta inactivo y se preciona "r" se llamará reaparición en punto
-                
-                AdminCamera2D.instance.reIniciaSeguimiento(puntoAparicion);
+        if(!ObjetoPrefab.activeSelf && !panel_pausa.activeSelf){
+                StartCoroutine("cerrarTelon");
+                panel_pausa.SetActive(true);
+                if(panel_pausa.activeSelf && check>0)
+                    continuarCheck.interactable=true;
+            
+        }
+        if(InputManager.GetButtonDown("Exit")){
+            pausaNivel();
+            if(panel_pausa.activeSelf && check>0)
+                continuarCheck.interactable=true;
+            
+        }
+       
+    }
+    public void puntocontrol(){
+        
+            AdminCamera2D.instance.reIniciaSeguimiento(puntoAparicion);
+            Time.timeScale = 1;
+            StartCoroutine("abreTelon");
+            if(UI_Vida.instance.sliderVida.value<=0){                
                 UI_Vida.instance.Revivir();
                 Admin_Movimientos.instance.Iniciar_MOVs();
                 //El Objetivo se activa, pero primero se le da la posición de donde debe reaparecer
-                ObjetoPrefab.SetActive(true);
-                StartCoroutine("abreTelon");
-        }
+                               
+            }  
+            ObjetoPrefab.SetActive(true);           
+            pausaNivel();
+       
+    }
+    public void ReiniciarEscena(){
+        SceneManager.LoadScene("Mundo"+(NumLevel+1));
+        Time.timeScale = 1;
+    }
+    public void DejarEscena(){
+        SceneManager.LoadScene("City_1");
+        Time.timeScale = 1;
+    }
+    private void pausaNivel(){
+        if(!panel_pausa.activeSelf){
+            panel_pausa.SetActive(true);
+            texto_pausa.text = "Pausa";
+            Time.timeScale = 0;
+        }else{
+            panel_pausa.SetActive(false);
+            Time.timeScale = 1;
+            }
     }
     private void TerminaEscena(){
         StartCoroutine("cerrarTelon");
@@ -100,7 +142,23 @@ public class Admin_Level : MonoBehaviour
         // los objetos de nuevo en la escena la proxima vez que se inicie el mundo.
         crearPrefsCoinsMundo();
         crearPrefsEnemyMundo();
+        ActualizarPrefsMundos(NumLevel);
         PlayerPrefs.SetInt("monedasPrefs",totalMonedas + monedasCapturadas);  
+    }
+    public void ActualizarPrefsMundos(int nivel){       
+        int cont=0;
+        string constructo="";        
+        for (int i = 0; i < PlayerPrefs.GetString("info_mundos","").Length; i++)
+        {
+            if(PlayerPrefs.GetString("info_mundos","").Substring(i,1)!="-"){
+                constructo += nivel==cont ? "1" : PlayerPrefs.GetString("info_mundos","").Substring(i,1);
+                cont++;
+            }
+            else{
+                constructo += "-";
+            }
+        }
+        PlayerPrefs.SetString("info_mundos",constructo);
     }
     private void PierdeEscena(){
         StartCoroutine("cerrarTelon");
@@ -109,6 +167,10 @@ public class Admin_Level : MonoBehaviour
         //detenemos la interacción usuario personaje e animaciones
         Admin_Movimientos.instance.Detener_MOVs();
         ObjetoPrefab.GetComponent<Rigidbody2D>().Sleep();//detenemos la fisicas temporalmente
+        panel_pausa.SetActive(true);
+        if(panel_pausa.activeSelf && check>0)
+                continuarCheck.interactable=true;
+        texto_pausa.text = "Game Over";
     }
     public void ActualizarPrefsCoinsMundo(){//En cada punto de salvado de escena se actualiza el prefs
         string constructo="";
@@ -229,10 +291,14 @@ public class Admin_Level : MonoBehaviour
         telon.enabled = true;
         Color c = new Color(0f,0f,0f,1f);
         while(telon.color.a<c.a){
-            telon.color = new Color(0,0,0,telon.color.a+0.01f);
+            telon.color = new Color(0,0,0,telon.color.a+0.2f);
             yield return new WaitForSeconds(0.01f);        
         }
         telon.color = new Color(0f,0f,0f,1f);
-        
+        if(mundo_passed){
+            SceneManager.LoadScene("City_1");
+            Time.timeScale = 1;
+        }else
+            Time.timeScale = 0;
     }
 }

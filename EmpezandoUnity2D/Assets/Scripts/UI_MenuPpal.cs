@@ -35,7 +35,10 @@ public class UI_MenuPpal : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {        
+    {   
+        if(PlayerPrefs.GetString("info_mundos","")!=""){
+            continueGameB.interactable=true;
+        }     
         dificultValue = PlayerPrefs.GetInt("dificultPrefs",0);
         nameValue = PlayerPrefs.GetString("namePrefs","");
         brilloSelect = PlayerPrefs.GetFloat("brilloPrefs",0);
@@ -140,10 +143,12 @@ public class UI_MenuPpal : MonoBehaviour
         UpdatePrefs();
     }
     public void Load_newGame(){//Inicia al usuario a la primer escena por ver
-        SceneManager.LoadScene("Mundo1");
+        PlayerPrefs.SetString("info_mundos","");
+        PlayerPrefs.SetInt("monedasPrefs",0);
+        SceneManager.LoadScene("City_1");
     }
     public void Load_continueGame(){//Envia al Usuario a la ultima escena Jugada
-        SceneManager.LoadScene("Mundo2");
+        SceneManager.LoadScene("City_1");
     }
     public void ExitGame(){
          #if UNITY_EDITOR

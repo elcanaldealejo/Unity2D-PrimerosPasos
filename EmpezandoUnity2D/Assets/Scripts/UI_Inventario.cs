@@ -29,7 +29,7 @@ public class UI_Inventario : MonoBehaviour
     void Update()
     {
         
-        if(InputManager.GetButtonUp("Inventory") && !UI_Controller.instance.panelController.activeSelf && !UI_Dialogo.instance.PanelDialogo.activeSelf){
+        if(InputManager.GetButtonUp("Inventory") && !UI_Controller.instance.panelController.activeSelf){ //&& !UI_Dialogo.instance.PanelDialogo.activeSelf){
             if(!panelInventario.activeSelf){
                     panelInventario.SetActive(true);
                     StartCoroutine("Movimiento1");
