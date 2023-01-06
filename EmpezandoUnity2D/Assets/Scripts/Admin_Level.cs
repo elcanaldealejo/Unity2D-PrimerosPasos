@@ -22,8 +22,8 @@ public class Admin_Level : MonoBehaviour
     public Text monedasPantalla;
     private int monedasCapturadas;
     public GameObject panel_pausa = null;
-    public Text texto_pausa;
-    public Button continuarCheck=null;
+    public Text texto_pausa;//este texto puede cambiar cuando se llama la pausa o cuando muere el personaje
+    public Button continuarCheck=null;//Lo instanciamos porque cambiará de estado según eventos
 
 [Header("Grupos de Enemigos - Coleccionables y más...")]
     //Monedas
@@ -79,39 +79,37 @@ public class Admin_Level : MonoBehaviour
         monedasPantalla.text = (totalMonedas + monedasCapturadas).ToString("D8");//imprimimos monedas en pantalla
         if(mundo_passed && !telon.enabled)//cuando se alcance el ultimo checkpoint se termina la escena
             TerminaEscena();
-
-        if(UI_Vida.instance.sliderVida.value<=0 && !panel_pausa.activeSelf)//Evaluamos constantemente la vida del personaje
+        //Evaluamos constantemente la vida del personaje, pero si el panel de pausa se abre se garantiza 
+        // que no se continue ejecutando el metodo perder escena
+        if(UI_Vida.instance.sliderVida.value<=0 && !panel_pausa.activeSelf)
             PierdeEscena();
 
-        if(!ObjetoPrefab.activeSelf && !panel_pausa.activeSelf){
+        if(!ObjetoPrefab.activeSelf && !panel_pausa.activeSelf){// cuando el personaje fue desactivado por muerte instantanea o cae al vacio
                 StartCoroutine("cerrarTelon");
                 panel_pausa.SetActive(true);
-                if(panel_pausa.activeSelf && check>0)
-                    continuarCheck.interactable=true;
+                //Evaluamos si se alcanzo un punto de guardado para habilitar el botón de continuar
+                continuarCheck.interactable = check>0 ? true : false;
             
         }
-        if(InputManager.GetButtonDown("Exit")){
+        if(InputManager.GetButtonDown("Exit")){//cuando se presiona el comando Exit se pausa el juego
             pausaNivel();
-            if(panel_pausa.activeSelf && check>0)
-                continuarCheck.interactable=true;
+            //Evaluamos si se alcanzo un punto de guardado para habilitar el botón de continuar
+            continuarCheck.interactable = check>0 ? true : false;
             
         }
        
     }
     public void puntocontrol(){
-        
+            //El Objetivo se activa, pero primero se le da la posición de donde debe reaparecer
             AdminCamera2D.instance.reIniciaSeguimiento(puntoAparicion);
-            Time.timeScale = 1;
+            Time.timeScale = 1;// Como siempre se pausa al morir, dar pausa o terminar escena, quitamos la pausa de esta manera
             StartCoroutine("abreTelon");
             if(UI_Vida.instance.sliderVida.value<=0){                
                 UI_Vida.instance.Revivir();
                 Admin_Movimientos.instance.Iniciar_MOVs();
-                //El Objetivo se activa, pero primero se le da la posición de donde debe reaparecer
-                               
             }  
             ObjetoPrefab.SetActive(true);           
-            pausaNivel();
-       
+            pausaNivel();       
     }
     public void ReiniciarEscena(){
         SceneManager.LoadScene("Mundo"+(NumLevel+1));
@@ -142,10 +140,12 @@ public class Admin_Level : MonoBehaviour
         // los objetos de nuevo en la escena la proxima vez que se inicie el mundo.
         crearPrefsCoinsMundo();
         crearPrefsEnemyMundo();
-        ActualizarPrefsMundos(NumLevel);
+        ActualizarPrefsMundos(NumLevel);//actualizamos pref info_mundo
         PlayerPrefs.SetInt("monedasPrefs",totalMonedas + monedasCapturadas);  
     }
-    public void ActualizarPrefsMundos(int nivel){       
+    public void ActualizarPrefsMundos(int nivel){
+        //Despues de completar el mundo debemos actualizar el prefs de informacion de mundos, escribiendole que el mundo
+        // en el que estamos(parametro que entra) debe volverse 1 en esa cadena     
         int cont=0;
         string constructo="";        
         for (int i = 0; i < PlayerPrefs.GetString("info_mundos","").Length; i++)
@@ -167,6 +167,8 @@ public class Admin_Level : MonoBehaviour
         //detenemos la interacción usuario personaje e animaciones
         Admin_Movimientos.instance.Detener_MOVs();
         ObjetoPrefab.GetComponent<Rigidbody2D>().Sleep();//detenemos la fisicas temporalmente
+        
+        //Actualizamos UI, para que el usuario elija como continuar
         panel_pausa.SetActive(true);
         if(panel_pausa.activeSelf && check>0)
                 continuarCheck.interactable=true;
@@ -270,8 +272,8 @@ public class Admin_Level : MonoBehaviour
     }
     private void ControlTiempo(){
         if(Time.timeScale>0 && tiempoActual>0){
-            tiempoActual = tiempoMax - (int)Time.time;
-            tiempoPantalla.text =(tiempoMax - (int)Time.time).ToString("D3");
+            tiempoActual = tiempoMax - (int)Time.timeSinceLevelLoad;// reducción de tiempo desde cada inicio de escena
+            tiempoPantalla.text =(tiempoMax - (int)Time.timeSinceLevelLoad).ToString("D3");
         }
         if(tiempoActual==0 && telon.enabled==false){
             StartCoroutine("cerrarTelon");
@@ -295,10 +297,10 @@ public class Admin_Level : MonoBehaviour
             yield return new WaitForSeconds(0.01f);        
         }
         telon.color = new Color(0f,0f,0f,1f);
-        if(mundo_passed){
+        if(mundo_passed){//cuando cierre el telón y se termine la escena, cargue el mapa y termine la pausa
             SceneManager.LoadScene("City_1");
             Time.timeScale = 1;
-        }else
+        }else// siempre que se cierre el telón pause la escena
             Time.timeScale = 0;
     }
 }

@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 4e69b066847441f47a5fba7bd7d5bfec
+  - enabled: 1
     path: Assets/Scenes/MenuPpal.unity
     guid: 7a868fc94ad32ca42b1f65056b836e9f
+  - enabled: 1
+    path: Assets/Scenes/City_1.unity
+    guid: 641d2eafae07c16489743ec204b6dfcb
   - enabled: 1
     path: Assets/Scenes/Mundo1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Mundo2.unity
     guid: b5a42d5ad9322e142b036da0d62518fa
-  - enabled: 1
-    path: Assets/Scenes/City_1.unity
-    guid: 641d2eafae07c16489743ec204b6dfcb
   m_configObjects: {}

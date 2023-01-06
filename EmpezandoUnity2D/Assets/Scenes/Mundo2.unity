@@ -3094,7 +3094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -206.99997, y: 0.8999939}
+  m_AnchoredPosition: {x: -206.99998, y: 0.8999939}
   m_SizeDelta: {x: 229.78699, y: 159.00537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317754970
@@ -3781,7 +3781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -210.99997, y: 0.8999939}
+  m_AnchoredPosition: {x: -210.99998, y: 0.8999939}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &499315960
@@ -5898,8 +5898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ff66ae0428b7c4693bd0983a1e4714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PC_Controller: 1
-  Mobile_Controller: 0
+  PC_Controller: 0
+  Mobile_Controller: 1
   Panel_MobilePad: {fileID: 1749480882}
 --- !u!114 &906130049
 MonoBehaviour:
@@ -6191,7 +6191,7 @@ MonoBehaviour:
         m_gamepadButton: 0
         m_gamepadAxis: 0
         m_gamepadIndex: 0
-  m_playerOneDefault: 51d22aac372945d298e0e7e0cc2623a3
+  m_playerOneDefault: 6f312b7190644019a57528317250fcf1
   m_playerTwoDefault: 
   m_playerThreeDefault: 
   m_playerFourDefault: 
@@ -6800,7 +6800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -134, y: -7.2}
+  m_AnchoredPosition: {x: -133.99998, y: -7.2}
   m_SizeDelta: {x: 269.32544, y: 363.2603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105843346
@@ -9494,6 +9494,9 @@ MonoBehaviour:
   telon: {fileID: 71290102}
   tiempoPantalla: {fileID: 616932688}
   monedasPantalla: {fileID: 1179361414}
+  panel_pausa: {fileID: 0}
+  texto_pausa: {fileID: 0}
+  continuarCheck: {fileID: 0}
   monedasObject: []
   enemyObject: []
   PersonajePref: {fileID: 4978209932314192700, guid: 36e2ef522f3b8af4bb711bf89ffc9707,

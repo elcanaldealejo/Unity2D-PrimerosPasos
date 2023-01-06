@@ -23,7 +23,7 @@ public class IsTrigger_ON : MonoBehaviour
             UI_Vida.instance.Damage(collider.gameObject.GetComponent<Enemy_basic>().ataque);
         }
         if(collider.gameObject.layer == 18){//Mundo Mapa
-            mov_mundos.instance.botonjugar.SetActive(true);
+            mov_mundos.instance.botonjugar.SetActive(true);//los botones en el mapa tienen collider con isTrigger activo, otra forma de activar el boton jugar
         }
         
         if(collider.gameObject.tag == "Coleccionable"){//solo si tienen el tag colecionable se agregaran al inventario
