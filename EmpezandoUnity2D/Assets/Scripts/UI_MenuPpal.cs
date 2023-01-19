@@ -38,6 +38,8 @@ public class UI_MenuPpal : MonoBehaviour
     {   
         if(PlayerPrefs.GetString("info_mundos","")!=""){
             continueGameB.interactable=true;
+        }else{
+            InitControllerPrefs();
         }     
         dificultValue = PlayerPrefs.GetInt("dificultPrefs",0);
         nameValue = PlayerPrefs.GetString("namePrefs","");
@@ -70,7 +72,18 @@ public class UI_MenuPpal : MonoBehaviour
         if(continuar)
             continueGameB.interactable=true;
     }
-
+    public void InitControllerPrefs(){
+        //Metodo para Crear o Modificar Prefs
+        //Esté Script presentará errores si la aplicación no detecta los Prefs con los siguientes Nombres
+            PlayerPrefs.SetString("Jump","J");
+            PlayerPrefs.SetString("Action","X");
+            PlayerPrefs.SetString("Cancel","C");
+            PlayerPrefs.SetString("Inventory","I");
+            PlayerPrefs.SetString("Horizontal_Neg","A");
+            PlayerPrefs.SetString("Horizontal_Pos","D");
+            PlayerPrefs.SetString("Vertical_Neg","S");
+            PlayerPrefs.SetString("Vertical_Pos","W");
+     }
     public void UpdatePrefs(){//Actualiza toda la UI activa en la escena con los valores que tengan las variables
             dificult.value = dificultValue;
             dificult.captionText.text = ""+dificult.options[dificultValue].text;

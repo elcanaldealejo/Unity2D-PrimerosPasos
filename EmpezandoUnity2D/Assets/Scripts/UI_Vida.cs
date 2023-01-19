@@ -34,7 +34,8 @@ public class UI_Vida : MonoBehaviour
 
     public void Damage(float value){
         if(!Admin_Movimientos.instance.INVENCIBLE_TIME){
-            resVida = value;            
+            resVida = value;
+            VibraCamera.instance.Vibrar();            
             StartCoroutine("reducirVida");            
         }
     }

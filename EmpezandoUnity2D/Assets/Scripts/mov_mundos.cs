@@ -68,7 +68,7 @@ public class mov_mundos : MonoBehaviour
     }
     private string inicializarMundos_NewGame(){
         /*    
-        Se construye una info de mundos para el mapa vacia segun sea el numero de mundos descritos en el inspector
+        Se construye una info de mundos para el mapa vacio según sea el numero de mundos descritos en el inspector
         */
         string constructo ="";
         for (int i = 0; i < cantidadMundos; i++)

@@ -4950,11 +4950,11 @@ InputManager:
     axis: 25
     joyNum: 11
   - serializedVersion: 3
-    m_Name: joy_10_axis_26
+    m_Name: UI_Right
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: right
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -4962,15 +4962,15 @@ InputManager:
     sensitivity: 1
     snap: 0
     invert: 0
-    type: 2
-    axis: 26
+    type: 0
+    axis: 0
     joyNum: 11
   - serializedVersion: 3
-    m_Name: joy_10_axis_27
+    m_Name: Vertical
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
+    negativeButton: down
+    positiveButton: up
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -4978,17 +4978,17 @@ InputManager:
     sensitivity: 1
     snap: 0
     invert: 0
-    type: 2
-    axis: 27
+    type: 0
+    axis: 1
     joyNum: 11
   - serializedVersion: 3
-    m_Name: Submit
+    m_Name: Horizontal
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
+    negativeButton: left
+    positiveButton: right
     altNegativeButton: 
-    altPositiveButton: joystick button 0
+    altPositiveButton: 
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -5019,38 +5019,6 @@ InputManager:
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: escape
-    altNegativeButton: 
-    altPositiveButton: joystick button 1
-    gravity: 1000
-    dead: 0.001
-    sensitivity: 1000
-    snap: 0
-    invert: 0
-    type: 0
-    axis: 0
-    joyNum: 0
-  - serializedVersion: 3
-    m_Name: Horizontal
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
-    altNegativeButton: 
-    altPositiveButton: joystick button 1
-    gravity: 1000
-    dead: 0.001
-    sensitivity: 1000
-    snap: 0
-    invert: 0
-    type: 0
-    axis: 0
-    joyNum: 0
-  - serializedVersion: 3
-    m_Name: Vertical
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: 
     altNegativeButton: 
     altPositiveButton: joystick button 1
     gravity: 1000

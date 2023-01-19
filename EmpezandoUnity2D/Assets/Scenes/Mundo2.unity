@@ -3094,7 +3094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -206.99998, y: 0.8999939}
+  m_AnchoredPosition: {x: -207, y: 0.8999939}
   m_SizeDelta: {x: 229.78699, y: 159.00537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317754970
@@ -3781,7 +3781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -210.99998, y: 0.8999939}
+  m_AnchoredPosition: {x: -211, y: 0.8999939}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &499315960
@@ -5898,8 +5898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ff66ae0428b7c4693bd0983a1e4714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PC_Controller: 0
-  Mobile_Controller: 1
+  PC_Controller: 1
+  Mobile_Controller: 0
   Panel_MobilePad: {fileID: 1749480882}
 --- !u!114 &906130049
 MonoBehaviour:
@@ -6191,7 +6191,7 @@ MonoBehaviour:
         m_gamepadButton: 0
         m_gamepadAxis: 0
         m_gamepadIndex: 0
-  m_playerOneDefault: 6f312b7190644019a57528317250fcf1
+  m_playerOneDefault: 51d22aac372945d298e0e7e0cc2623a3
   m_playerTwoDefault: 
   m_playerThreeDefault: 
   m_playerFourDefault: 
@@ -6710,7 +6710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1.08
+  m_ScaleFactor: 1.62
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -6800,7 +6800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -133.99998, y: -7.2}
+  m_AnchoredPosition: {x: -134, y: -7.2}
   m_SizeDelta: {x: 269.32544, y: 363.2603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105843346
@@ -9550,6 +9550,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113, y: 0.8999939}
+  m_AnchoredPosition: {x: -202, y: 0.8999939}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

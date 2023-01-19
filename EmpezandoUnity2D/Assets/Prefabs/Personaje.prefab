@@ -269,7 +269,7 @@ MonoBehaviour:
     m_Bits: 33552
   FuerzaSalto: 5
   NumSaltos: 0
-  MaxSaltos: 21
+  MaxSaltos: 2
 --- !u!114 &3562237093596588514
 MonoBehaviour:
   m_ObjectHideFlags: 0
