@@ -47,16 +47,16 @@ public class Personaje_Movimiento : MonoBehaviour
             if(InputManager.GetAxisRaw("Horizontal")!=0)
                 dirSprite(InputManager.GetAxisRaw("Horizontal"));
                 
-            if( InputManager.GetAxis("Horizontal")!=0 && Input_Class.instance.Mobile_Controller){
+            if( InputManager.GetAxis("Horizontal")!=0.0f && Input_Class.instance.Mobile_Controller){
                     var dirEntero=0;
                     if(InputManager.GetAxis("Horizontal")>0.0f)
                      dirEntero =1;
                     if(InputManager.GetAxis("Horizontal")<0.0f)
                      dirEntero =-1;
                     if(InputManager.GetAxis("Horizontal")*2 < 1f || InputManager.GetAxis("Horizontal")*2 > -1f) 
-                        RB.velocity = new Vector2(Valida_VelocidadMov() * (InputManager.GetAxis("Horizontal")*2),RB.velocity.y);
+                        RB.velocity = new Vector2(Valida_VelocidadMov() * (dirEntero),RB.velocity.y);
                     else    
-                       RB.velocity = new Vector2(Valida_VelocidadMov() * (InputManager.GetAxis("Horizontal")),RB.velocity.y); 
+                       RB.velocity = new Vector2(Valida_VelocidadMov() * (dirEntero),RB.velocity.y); 
                     dirSprite(dirEntero);
             }
             

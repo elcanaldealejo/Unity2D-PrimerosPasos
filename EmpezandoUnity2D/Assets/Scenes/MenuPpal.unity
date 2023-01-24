@@ -1011,6 +1011,7 @@ MonoBehaviour:
   brilloSelect: 0
   volumeValue: 1
   muteValue: 0
+  NumeroMundos: 2
 --- !u!1 &379875888
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mundo2.unity
     guid: b5a42d5ad9322e142b036da0d62518fa
+  - enabled: 1
+    path: Assets/Scenes/Escena_Puente.unity
+    guid: 223031685664399449ddd33ea3458052
   m_configObjects: {}

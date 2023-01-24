@@ -112,7 +112,11 @@ public class Admin_Level : MonoBehaviour
             pausaNivel();       
     }
     public void ReiniciarEscena(){
-        SceneManager.LoadScene("Mundo"+(NumLevel+1));
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene("Mundo"+(NumLevel+1));
+        PlayerPrefs.SetString("escena_load","Mundo"+(NumLevel+1));
+        SceneManager.LoadScene("Escena_Puente");
         Time.timeScale = 1;
     }
     public void DejarEscena(){
@@ -123,11 +127,16 @@ public class Admin_Level : MonoBehaviour
         if(!panel_pausa.activeSelf){
             panel_pausa.SetActive(true);
             texto_pausa.text = "Pausa";
+            Input_Class.instance.cerraPausa.GetComponent<Button>().interactable=true;
             Time.timeScale = 0;
         }else{
             panel_pausa.SetActive(false);
             Time.timeScale = 1;
             }
+    }
+    public void TerminaPausa(){
+        if(UI_Vida.instance.sliderVida.value>0)
+            pausaNivel();
     }
     private void TerminaEscena(){
         StartCoroutine("cerrarTelon");
@@ -170,8 +179,10 @@ public class Admin_Level : MonoBehaviour
         
         //Actualizamos UI, para que el usuario elija como continuar
         panel_pausa.SetActive(true);
-        if(panel_pausa.activeSelf && check>0)
+        if(panel_pausa.activeSelf && check>0){
                 continuarCheck.interactable=true;
+                Input_Class.instance.cerraPausa.GetComponent<Button>().interactable=false;
+        }
         texto_pausa.text = "Game Over";
     }
     public void ActualizarPrefsCoinsMundo(){//En cada punto de salvado de escena se actualiza el prefs
@@ -276,7 +287,7 @@ public class Admin_Level : MonoBehaviour
             tiempoPantalla.text =(tiempoMax - (int)Time.timeSinceLevelLoad).ToString("D3");
         }
         if(tiempoActual==0 && telon.enabled==false){
-            StartCoroutine("cerrarTelon");
+            PierdeEscena();
             Admin_Movimientos.instance.Detener_MOVs();
         }
     }
@@ -284,7 +295,7 @@ public class Admin_Level : MonoBehaviour
         Color c = new Color(0f,0f,0f,0f);
         while(telon.color.a>c.a){
             telon.color = new Color(0f,0f,0f,telon.color.a-0.01f);
-            yield return new WaitForSeconds(0.01f);   
+            yield return new WaitForSeconds(0.005f);   
         }
         telon.color = new Color(0f,0f,0f,0f);
         telon.enabled = false;

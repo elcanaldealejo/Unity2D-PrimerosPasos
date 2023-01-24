@@ -29,6 +29,8 @@ public class UI_MenuPpal : MonoBehaviour
       [SerializeField] private float brilloSelect;
       [SerializeField] private float volumeValue;
       [SerializeField] private bool muteValue;
+      [SerializeField] private int NumeroMundos=0;
+
 
       private Color c;
       
@@ -159,6 +161,12 @@ public class UI_MenuPpal : MonoBehaviour
         PlayerPrefs.SetString("info_mundos","");
         PlayerPrefs.SetInt("monedasPrefs",0);
         SceneManager.LoadScene("City_1");
+        for(int i=0; i<NumeroMundos; i++){
+            PlayerPrefs.SetString("mundoCoins"+i,"");
+            PlayerPrefs.SetString("mundoEnemy"+i,"");
+        }
+
+
     }
     public void Load_continueGame(){//Envia al Usuario a la ultima escena Jugada
         SceneManager.LoadScene("City_1");
