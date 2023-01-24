@@ -81,14 +81,15 @@ public class Admin_Level : MonoBehaviour
             TerminaEscena();
         //Evaluamos constantemente la vida del personaje, pero si el panel de pausa se abre se garantiza 
         // que no se continue ejecutando el metodo perder escena
-        if(UI_Vida.instance.sliderVida.value<=0 && !panel_pausa.activeSelf)
+        if(UI_Vida.instance.sliderVida.value<=0 && !panel_pausa.activeSelf)//perdida por vida cero
             PierdeEscena();
 
-        if(!ObjetoPrefab.activeSelf && !panel_pausa.activeSelf){// cuando el personaje fue desactivado por muerte instantanea o cae al vacio
-                StartCoroutine("cerrarTelon");
-                panel_pausa.SetActive(true);
+        if(!ObjetoPrefab.activeSelf && !panel_pausa.activeSelf){//perdida por muerte instantanea o cae al vacio
+                //StartCoroutine("cerrarTelon");
+                PierdeEscena();
+                //panel_pausa.SetActive(true);
                 //Evaluamos si se alcanzo un punto de guardado para habilitar el botón de continuar
-                continuarCheck.interactable = check>0 ? true : false;
+                //continuarCheck.interactable = check>0 ? true : false;
             
         }
         if(InputManager.GetButtonDown("Exit")){//cuando se presiona el comando Exit se pausa el juego
@@ -105,16 +106,14 @@ public class Admin_Level : MonoBehaviour
             Time.timeScale = 1;// Como siempre se pausa al morir, dar pausa o terminar escena, quitamos la pausa de esta manera
             StartCoroutine("abreTelon");
             if(UI_Vida.instance.sliderVida.value<=0){                
-                UI_Vida.instance.Revivir();
-                Admin_Movimientos.instance.Iniciar_MOVs();
+                UI_Vida.instance.Revivir();                
             }  
-            ObjetoPrefab.SetActive(true);           
+            ObjetoPrefab.SetActive(true); 
+            Admin_Movimientos.instance.Iniciar_MOVs(); 
+            AudioManager.instance.PlaySounds(0);         
             pausaNivel();       
     }
     public void ReiniciarEscena(){
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //SceneManager.LoadScene("Mundo"+(NumLevel+1));
         PlayerPrefs.SetString("escena_load","Mundo"+(NumLevel+1));
         SceneManager.LoadScene("Escena_Puente");
         Time.timeScale = 1;

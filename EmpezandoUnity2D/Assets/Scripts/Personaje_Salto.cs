@@ -27,7 +27,7 @@ public class Personaje_Salto : MonoBehaviour
     {
         if(Admin_Movimientos.instance.SALTO_MOV){
             Valida_Salto();
-            if(InputManager.GetButtonDown("Jump") && NumSaltos<MaxSaltos){
+            if(InputManager.GetButtonDown("Jump")  && NumSaltos<MaxSaltos){
                     VerticalMovimiento();
             }
         }

@@ -28,7 +28,8 @@ public class UI_Vida : MonoBehaviour
 
     void Update()
     {
-        StartCoroutine("invulnerableTime");
+        if(Admin_Movimientos.instance.INVENCIBLE_TIME)
+            StartCoroutine("invulnerableTime");
        
     }
 
